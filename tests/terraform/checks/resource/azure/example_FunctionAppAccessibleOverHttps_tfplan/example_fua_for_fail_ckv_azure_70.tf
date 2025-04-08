@@ -23,7 +23,7 @@ resource "azurerm_storage_account" "example" {
 }
 
 resource "azurerm_app_service_plan" "example" {
-  name                = "appserviceplan"
+  name                = "appserviceplan-lir-test"
   location            = var.location
   resource_group_name = var.resource_group_name
   sku {
